@@ -1,129 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700&family=Quicksand:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
-header{
-  font-family: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Jersey+15&family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+  font-family: "Raleway", sans-serif;
+  background-color: #326894;
+  margin: 0px;
+}
+
+.container-lg{
+  margin: 80px auto;
+  width: 75%;
+  background-color: #f5f5f5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.31);
+  -moz-box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.31);
+  box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.31);
+}
+
+ul{
+  margin-left: 60px;
+  list-style-type: "»";
+}
+
+li{
+  padding-left: 5px;
+}
+
+table{
+  min-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+p{
+  font-family: "Nunito Sans", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 a, h1 a:hover, h1 a:visited{
+  font-family: "Sedan", serif;
+  font-size: 45pt;
+  text-decoration: none;
+  color: #326894;
+  margin-bottom: 140px;
+}
+
+h1{
   text-align: center;
-  text-decoration: none;
 }
 
-header a, a:hover, a:visited {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  text-decoration: none;
-}@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700&family=Quicksand:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
-header{
-  font-family: 'Ubuntu', sans-serif;
-  text-align: center;
-  text-decoration: none;
+h2, h3, h4, h5, h6{
+  text-align: left;
+  padding-left: 40px;
+  font-weight: bolder;
 }
-
-header a, a:hover, a:visited {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  text-decoration: none;
-}
-
-header h1 {
-  text-decoration: none;
-  font-size: 34pt;
-  font-family: 'Quicksand', sans-serif;
-  color: #018192;
-  padding-bottom: 10px;
-  margin-top: 60px;
-}
-
-header h2 {
-  text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
-  color: #018192;
-}
-
-header h1.a, h1.a:hover, h1.a:visited {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  font-size: larger;
-  text-decoration: none;
-}
-
-#content-wrapper h3{
-  font-size: 22pt;
-  font-weight: bold;
-  color: #5C0047;
-}
-
-#content-wrapper h4{
-  font-size: 20pt;
-  font-weight: bold;
-  color: #5C0047;
-}
-
-#content-wrapper h5{
-  font-size: 18pt;
-  font-weight: bold;
-  color: #5C0047;
-}
-
-#content-wrapper h5{
-  font-size: 16pt;
-  font-weight: bold;
-}
-
-#content-wrapper{
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0 auto;
-  width: 60%;
-}
-
-#content-wrapper h1, h2, h3, h4, h5, h6{
-  font-family: 'Quicksand', sans-serif;
-  color: #2A2A2A;
-  font-weight: bold;
-}
-
-#main-content a, a:hover, a:visited{
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
-#sidebar a, a:hover, a:visited{
-  font-family: 'Noto Sans', sans-serif;
-  text-decoration: none;
-  color: #FE2E64;
-}
-
-#content-wrapper h2{
-  margin-top: 50px;
-}
-
-#content-wrapper h1, h2{
-  text-align: center;
-  color: #2A2A2A;
-}
-
-#main-content p{
-  text-align: justify;
-}
-
-#content-wrapper h2{
-  color: #2A2A2A;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 26pt;
-} 
 
 .highlighter-rouge{
-  background-color: #2A2A2A;
-  color: #AEEAE6;
+  font-family: "Fira Mono", monospace;
+  background: #0B173B;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left: 15px;
   padding-right: 5px;
   margin-top: 20px;
-  border-radius: 10px;
-  overflow-x: auto;
+  min-width: 100vw;
 }
 
-.k, .kt{
+.k, .kt, code{
   font-weight: bold;
   color: chartreuse;
 }
@@ -146,7 +97,7 @@ header h1.a, h1.a:hover, h1.a:visited {
   color: #AEEAE6;
 }
 
-.s, .nf, .s2, .dl{
+.s, .nf, .s2, .dl, .kn{
   color: #31DBE0;
 }
 
@@ -155,52 +106,4 @@ header h1.a, h1.a:hover, h1.a:visited {
 } 
 
 
-header h1 {
-  text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
-  color: #243654;
-}
 
-header h1.a, h1.a:hover, h1.a:visited {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  text-decoration: none;
-}
-
-#content-wrapper{
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0 auto;
-  width: 60%;
-}
-
-#content-wrapper h1, h2, h3, h4, h5, h6{
-  font-family: 'Quicksand', sans-serif;
-  color: #0B173B;
-  font-weight: bold;
-}
-
-#main-content a, a:hover, a:visited{
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
-#sidebar a, a:hover, a:visited{
-  font-family: 'Noto Sans', sans-serif;
-  text-decoration: none;
-  color: #FE2E64;
-}
-
-#content-wrapper h1, h2{
-  text-align: center;
-}
-
-#main-content p{
-  text-align: justify;
-}
-
-#content-wrapper h2{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 26pt;
-}
