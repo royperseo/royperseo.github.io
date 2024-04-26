@@ -128,7 +128,7 @@ header h1.a, h1.a:hover, h1.a:visited {
   color: chartreuse;
 }
 
-.o, .n, .nt, .nl, .nn{
+.o, .n, .nt, .nl, .nn, .nb{
   color: #EEB100;
 }
 
@@ -136,7 +136,7 @@ header h1.a, h1.a:hover, h1.a:visited {
   color: #FE2E64;
 }
 
-.nb, .kc, .mi{
+ .kc, .mi{
   font-weight: bold;
   color: #FE2E64;
 }
