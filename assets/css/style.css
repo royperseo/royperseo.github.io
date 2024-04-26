@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700&family=Quicksand:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+header{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+header a, a:hover, a:visited {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700&family=Quicksand:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+header{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+header a, a:hover, a:visited {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+header h1 {
+  text-decoration: none;
+  font-size: 34pt;
+  font-family: 'Quicksand', sans-serif;
+  color: #018192;
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+
+header h2 {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #018192;
+}
+
+header h1.a, h1.a:hover, h1.a:visited {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: larger;
+  text-decoration: none;
+}
+
+#content-wrapper h3{
+  font-size: 22pt;
+  font-weight: bold;
+  color: #5C0047;
+}
+
+#content-wrapper h4{
+  font-size: 20pt;
+  font-weight: bold;
+  color: #5C0047;
+}
+
+#content-wrapper h5{
+  font-size: 18pt;
+  font-weight: bold;
+  color: #5C0047;
+}
+
+#content-wrapper h5{
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+#content-wrapper{
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#content-wrapper h1, h2, h3, h4, h5, h6{
+  font-family: 'Quicksand', sans-serif;
+  color: #2A2A2A;
+  font-weight: bold;
+}
+
+#main-content a, a:hover, a:visited{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#sidebar a, a:hover, a:visited{
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  color: #FE2E64;
+}
+
+#content-wrapper h2{
+  margin-top: 50px;
+}
+
+#content-wrapper h1, h2{
+  text-align: center;
+  color: #2A2A2A;
+}
+
+#main-content p{
+  text-align: justify;
+}
+
+#content-wrapper h2{
+  color: #2A2A2A;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26pt;
+} 
+
+.highlighter-rouge{
+  background-color: #2A2A2A;
+  color: #AEEAE6;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.k, .kt{
+  font-weight: bold;
+  color: chartreuse;
+}
+
+.o, .n, .nt, .nl{
+  color: #EEB100;
+}
+
+.na, .cp, .no{
+  color: #FE2E64;
+}
+
+.nb, .kc, .mi{
+  font-weight: bold;
+  color: #FE2E64;
+}
+
+.nc, .p{
+  font-weight: bold;
+  color: #AEEAE6;
+}
+
+.s, .nf, .s2, .dl{
+  color: #31DBE0;
+}
+
+.c1, .c, .c2{
+  color: #8A8A8A;
+} 
+
+
+header h1 {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #243654;
+}
+
+header h1.a, h1.a:hover, h1.a:visited {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+#content-wrapper{
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#content-wrapper h1, h2, h3, h4, h5, h6{
+  font-family: 'Quicksand', sans-serif;
+  color: #0B173B;
+  font-weight: bold;
+}
+
+#main-content a, a:hover, a:visited{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#sidebar a, a:hover, a:visited{
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  color: #FE2E64;
+}
+
+#content-wrapper h1, h2{
+  text-align: center;
+}
+
+#main-content p{
+  text-align: justify;
+}
+
+#content-wrapper h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26pt;
+}
